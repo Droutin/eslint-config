@@ -27,7 +27,8 @@
     "./tsconfig.base.json": "./tsconfig.base.json",
     "./*": {
       "types": "./build/*.d.ts",
-      "require": "./build/*.js"
+      "require": "./build/*.js",
+      "import": "./build/*.js"
     }
   },
   "scripts": {
